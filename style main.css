@@ -1,0 +1,147 @@
+.header{
+	background-image:url("back2.jpg");
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	height: 60px;
+	z-index: 3;
+	color: white;
+}
+body{
+	font-family:arial;
+}
+.e{
+	display: inline-block;
+	right: 10px;
+	top: 0px;
+	bottom: 0px;
+}
+.r{
+	display: table-cell;
+	list-style: none;
+	position: relative;
+	vertical-align: middle;
+	height: 81px;
+	font-size: 28px;
+	text-transform: uppercase;
+	padding: 0px 15px;
+}
+.y{
+	
+	height:485px;
+	color:white;
+	
+}
+a{
+	text-decoration:none;
+}
+.u{
+	color:white;
+	margin:15px;
+	padding:5px;
+	
+}
+.h{
+	background-color:#1DB8D0;
+	height:550px;
+	color:white;
+	width:2000px;
+}
+.img{
+	width:260px;
+	height:380px;
+}
+.txt{
+	margin:25px;
+}
+.v{
+	width:30px;
+	height:30px;
+}
+a:hover{
+	background-color:grey;
+	border-radius:10px;
+	padding:5px;
+}
+
+
+
+.o {
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+}
+span {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+  -webkit-animation: run 2s infinite ease-in-out;
+  animation: run 2s infinite ease-in-out;
+}
+
+.one {
+  background: #98FB98;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.two {
+  background: #9370DB;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.three {
+  background: #7FFFD4;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.four {
+  background: #F0FFF0;
+}
+
+@-webkit-keyframes run {
+  0% {
+    transform: translate(0%);
+    border-radius: 50%;
+  }
+  25% {
+    transform: translate(150%) scale(0.5); 
+    border-radius: 0%;
+  }
+  50% {
+    transform: translate(150%, 150%);
+    border-radius: 50%; 
+  }
+  75% {
+    transform: translate(0%, 150%) scale(0.5); 
+    border-radius: 0%;
+  }
+}
+@keyframes run {
+  0% {
+    transform: translate(0%);
+    border-radius: 50%;
+  }
+  25% {
+    transform: translate(150%) scale(0.5); 
+    border-radius: 0%;
+  }
+  50% {
+    transform: translate(150%, 150%);
+    border-radius: 50%; 
+  }
+  75% {
+    transform: translate(0%, 150%) scale(0.5); 
+    border-radius: 0%;
+  }
+}
+
+
+
+
+
